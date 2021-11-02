@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(51, 51, 51);
+    padding: 0.8rem;
+    font-size: 14px;
+    display: inline-grid;
+    width: 100vw;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+li {
+    margin: 0px 10px;
+    text-align: center;
+    display: inline;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(194, 194, 194);
+}
+
+main {
+    height: 100vh;
+    background-color: #fbfbfd;
+}
+
+.second-nav {
+    width: 100vw;
+    background-color: #e34140;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.8rem;
+    margin-top: 2.4rem;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.title p {
+    margin-top: 0.5rem;
+}
+
+#first-image {
+    margin-top: 4rem;
+    width: fit-content;
+    margin-left: 27vw;
+    height: 30vw;
+}
+
+.learn-buy {
+    margin-left: 42vw;
+    margin-top: 1rem;
+}
+
+.learn-buy a {
+    color: royalblue;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+.second-iphone {
+    margin-top: 1rem;
+    background-color: #2d2435;
+    height: 100vh;
+    width: 100vw;
+}
+
+.second-title {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    color: #f5f5f7;
+    padding-top: 2rem;
+}
+
+.second-title p {
+    color: #f9bee6;
+    font-weight: 550;
+    margin-top: 1rem;
+}
+
+.second-learn-buy a {
+    color: royalblue;
+    font-weight: 550;
+    padding: 1rem;
+}
+
+#second-image {
+    width: 700px;
+    height: 450px;
+    margin-left: 27vw;
+}
+
+.second-iphone .second-learn-buy {
+    margin-top: 1rem;
+    margin-left: 42vw;
+}
+
+.macbook-pro {
+    height: 100vh;
+}
+
+.macbook-title {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    color: rgb(29, 29, 31);
+}
+
+.macbook-title p {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(68, 68, 70);
+    margin-bottom: 0.5rem;
+}
+
+.macbook-learn-buy {
+    margin-left: 42vw;
+    margin-top: 1rem;
+}
+
+.macbook-learn-buy a {
+    padding: 1rem;
+    color: royalblue;
+    font-weight: 550;
+}
+
+#macbook-image {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5vw;
+}
+
+.homepod-and-airpods {
+    display: inline-flex;
+}
+
+.homepod {
+    margin-top: 9rem;
+    width: 50vw;
+}
+
+.airpods {
+    margin-top: 2rem;
+    width: 50vw;
+}
+
+.homepod-title {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(29, 29, 31);
+}
+
+.airpods-title {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(29, 29, 31);
+}
+
+.homepod-learn-buy {
+    margin-left: 17vw;
+    margin-top: 1rem;
+}
+
+.homepod-learn-buy a {
+    padding: 1rem;
+    color: royalblue;
+    font-weight: 550;
+}
+
+.airpods-learn-buy {
+    margin-left: 17vw;
+    margin-top: 1rem;
+}
+
+.airpods-title p {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: rgb(68, 68, 70);
+}
+
+.airpods-learn-buy a {
+    padding: 1rem;
+    color: royalblue;
+    font-weight: 550;
+}
+
+#homepod-image {
+    width: 50vw;
+}
+
+#airpods-image {
+    width: 50vw;
+    height: 70vh;
+}
+
+.watch-and-arcade {
+    display: inline-flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.watch {
+    margin-top: 4rem;
+    width: 50vw;
+}
+
+.arcade {
+    margin-top: 4rem;
+    width: 50vw;
+    margin-left: 5rem;
+}
+
+.watch-title {
+    text-align: center;
+    color: rgb(29, 29, 31);
+    font-size: 1.8rem;
+}
+
+.arcade-title {
+    text-align: center;
+    color: rgb(29, 29, 31);
+    font-size: 1.8rem;
+    width: 43vw;
+}
+
+.watch-title p {
+    font-size: 1.3rem;
+    color: rgb(68, 68, 70);
+    margin-top: 0.5rem;
+}
+
+.arcade-title p {
+    font-size: 1.3rem;
+    color: rgb(68, 68, 70);
+    margin-top: 0.5rem;
+    max-width: 35ch;
+    margin-left: 3.5rem;
+}
+
+.watch-learn-buy {
+    margin-left: 17vw;
+    margin-top: 1rem;
+}
+
+.arcade-learn-buy {
+    margin-left: 9vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.watch-learn-buy a {
+    color: royalblue;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+.arcade-learn-buy a {
+    color: royalblue;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+#watch-image {
+    width: 45vw;
+}
+
+#arcade-image {
+    width: 40vw;
+    height: 25vw;
+}
+
+.card-and-swagger {
+    display: inline-flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.swagger {
+    margin-left: 4rem;
+}
+
+.card-title {
+    text-align: center;
+    color: rgb(29, 29, 31);
+    font-size: 1.8rem;
+}
+
+.card-title p {
+    font-size: 1.2rem;
+    color: rgb(68, 68, 70);
+    margin-top: 0.5rem;
+    max-width: 27ch;
+    margin-bottom: 1rem;
+    margin-left: 12vw;
+}
+
+.card-learn-buy {
+    margin-left: 11vw;
+}
+
+.card-learn-buy a {
+    color: royalblue;
+    padding: 1rem;
+    font-weight: 550;
+    margin-left: 1rem;
+}
+
+#card-image {
+    width: 45vw;
+}
+
+#arcade-image {
+    width: 45vw;
+}
+
+footer {
+    background-color: #f5f5f7;
+    width: 100vw;
+    height: 70vh;
+    font-size: 12px;
+    color: #505053;
+    display: inline-flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(194, 194, 194);
+}
+
+h2 {
+    font-size: 12px;
+    text-align: center;
+}
+
+#shop-and-learn {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+#services {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+#account, #for-education, #for-healthcare, #for-government, #about-apple {
+    margin-top: 1rem;
+}
+
+#apple-store {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+#for-business {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+#apple-values {
+    display: grid;
+    gap: 0.7rem;
+    margin-top: 2rem;
+}
+
+.copyright {
+    display: inline-flex;
+    background-color: #f5f5f7;
+    font-size: 12px;
+    border-top: 1px solid rgb(194, 194, 194);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+    padding-left: 5rem;
+}
+
+#copyright li {
+    padding-right: 0.5rem;
+    color: rgb(141, 141, 145);
+}
+
+#privacy, #terms, #sales, #legal {
+    border-right: 1px solid rgb(194, 194, 194);
+}
+
+#usa {
+    display: inline-flex;
+    margin-left: 23vw;
+}
